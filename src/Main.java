@@ -8,6 +8,11 @@ public class Main {
         }
         return acc;
     }
+    public static void print(Shape[] v) {
+        for (Shape s : v) {
+            System.out.println(s.area());
+        }
+    }
 public static void main(String[] args) {
     Shape[] v = new Shape[4];
         v[0] = new Rectangle(5, 3);

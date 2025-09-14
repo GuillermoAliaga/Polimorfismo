@@ -1,12 +1,12 @@
-public class Circle (double r){
+public class Circle extends Shape{
 
-    private double radius;
+    private double r;
 
     public Circle(double r){
-        this.radius = r;
+        this.r = r;
     }
     public double area(){
-        return Math.PI * radius * radius;
+        return Math.PI * r * r;
     }
 
 }
