@@ -1,4 +1,4 @@
-public class GestorFiguras {
+public class Main {
 
     protected static double sum(Shape[]v){
         double acc = 0;
