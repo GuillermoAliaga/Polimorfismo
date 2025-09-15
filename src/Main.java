@@ -1,3 +1,4 @@
+import java.util.*;
 
 public class Main {
     Shape[] v = new Shape[4];
@@ -12,6 +13,11 @@ public class Main {
         for (Shape s : v) {
             System.out.println(s.area());
         }
+    }
+
+    public static void sort(Shape[] v){
+
+        Arrays.sort(v);
     }
 public static void main(String[] args) {
     Shape[] v = new Shape[4];
